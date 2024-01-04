@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  node_app:
+    image: ashwin
+    ports:
+      - "80:3000"
