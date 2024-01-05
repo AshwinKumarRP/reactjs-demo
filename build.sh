@@ -6,5 +6,5 @@ TAG="latest"
 DOCKERFILE="Dockerfile"  # Your Dockerfile name
 
 # Build the Docker image
-docker build -t "${IMAGE_NAME}:${TAG}" -f "${DOCKERFILE}" .
+docker build -t "${IMAGE_NAME}:${TAG}" .
 
